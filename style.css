@@ -1,0 +1,106 @@
+*{
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body{
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 8px;
+    margin-top: 350px;
+    background: url(imagens/fundo.png);
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.658);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+}
+
+h1, form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.76);
+}
+
+input, button{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 370px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.658);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-weight: 200;
+    font-family: sans-serif;
+    text-align: center
+}
+
+button {
+    margin-top: 5px;
+    width: 80px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.76);
+    cursor: pointer;
+}
+
+p {
+    color: red;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+button:hover {
+    background-color: rgba(0, 60, 255, 0.178);
+}
+
+.sucess-mensage {
+    background-color: rgba(62, 138, 62, 0.815);
+    padding: 2px 7px;
+    color: #fff;
+    width: 270px;
+    margin-left: 130px;
+    border-radius: 5px;
+    display: none;
+    font-size: 15px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.error-mensage{
+    margin-left: 16px;
+    font-size: 12px;
+    padding: 5px;
+    background-color: red;
+    width: 370px;
+    margin-top: 4px;
+    color: #fff;
+    display: none;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    border: solid 1px;
+    outline-color: red;
+}

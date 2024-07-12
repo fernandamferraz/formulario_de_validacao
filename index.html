@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação JavaScript</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Vamos validar números? </h1>
+        <form id="form-verifica">
+            <input type="number" id="campoA" placeholder="  Digite o primeiro número" required step="any"/>
+            <input type="number" id="campoB" placeholder="  Digite o segundo número" required step="any"/>
+            <p class="error-mensage">
+                O segundo número precisa ser maior que o primeiro
+            </p>
+            <button type="submit"><b>Validar</b></button>
+        </form>
+        <p class="sucess-mensage"></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
